@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12F0E9AD19F35F0300274338 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F0E9AC19F35F0300274338 /* AppDelegate.swift */; };
+		12F0E9AF19F35F0300274338 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F0E9AE19F35F0300274338 /* ViewController.swift */; };
+		12F0E9B219F35F0300274338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12F0E9B019F35F0300274338 /* Main.storyboard */; };
+		12F0E9B419F35F0300274338 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12F0E9B319F35F0300274338 /* Images.xcassets */; };
+		12F0E9B719F35F0300274338 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12F0E9B519F35F0300274338 /* LaunchScreen.xib */; };
+		12F0E9C319F35F0300274338 /* TouchesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F0E9C219F35F0300274338 /* TouchesTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12F0E9BD19F35F0300274338 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12F0E99F19F35F0300274338 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12F0E9A619F35F0300274338;
+			remoteInfo = Touches;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12F0E9A719F35F0300274338 /* Touches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touches.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12F0E9AB19F35F0300274338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12F0E9AC19F35F0300274338 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12F0E9AE19F35F0300274338 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12F0E9B119F35F0300274338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12F0E9B319F35F0300274338 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		12F0E9B619F35F0300274338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		12F0E9BC19F35F0300274338 /* TouchesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12F0E9C119F35F0300274338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12F0E9C219F35F0300274338 /* TouchesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchesTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12F0E9A419F35F0300274338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12F0E9B919F35F0300274338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12F0E99E19F35F0300274338 = {
+			isa = PBXGroup;
+			children = (
+				12F0E9A919F35F0300274338 /* Touches */,
+				12F0E9BF19F35F0300274338 /* TouchesTests */,
+				12F0E9A819F35F0300274338 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12F0E9A819F35F0300274338 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12F0E9A719F35F0300274338 /* Touches.app */,
+				12F0E9BC19F35F0300274338 /* TouchesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12F0E9A919F35F0300274338 /* Touches */ = {
+			isa = PBXGroup;
+			children = (
+				12F0E9AC19F35F0300274338 /* AppDelegate.swift */,
+				12F0E9AE19F35F0300274338 /* ViewController.swift */,
+				12F0E9B019F35F0300274338 /* Main.storyboard */,
+				12F0E9B319F35F0300274338 /* Images.xcassets */,
+				12F0E9B519F35F0300274338 /* LaunchScreen.xib */,
+				12F0E9AA19F35F0300274338 /* Supporting Files */,
+			);
+			path = Touches;
+			sourceTree = "<group>";
+		};
+		12F0E9AA19F35F0300274338 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12F0E9AB19F35F0300274338 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12F0E9BF19F35F0300274338 /* TouchesTests */ = {
+			isa = PBXGroup;
+			children = (
+				12F0E9C219F35F0300274338 /* TouchesTests.swift */,
+				12F0E9C019F35F0300274338 /* Supporting Files */,
+			);
+			path = TouchesTests;
+			sourceTree = "<group>";
+		};
+		12F0E9C019F35F0300274338 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12F0E9C119F35F0300274338 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12F0E9A619F35F0300274338 /* Touches */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12F0E9C619F35F0300274338 /* Build configuration list for PBXNativeTarget "Touches" */;
+			buildPhases = (
+				12F0E9A319F35F0300274338 /* Sources */,
+				12F0E9A419F35F0300274338 /* Frameworks */,
+				12F0E9A519F35F0300274338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Touches;
+			productName = Touches;
+			productReference = 12F0E9A719F35F0300274338 /* Touches.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12F0E9BB19F35F0300274338 /* TouchesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12F0E9C919F35F0300274338 /* Build configuration list for PBXNativeTarget "TouchesTests" */;
+			buildPhases = (
+				12F0E9B819F35F0300274338 /* Sources */,
+				12F0E9B919F35F0300274338 /* Frameworks */,
+				12F0E9BA19F35F0300274338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12F0E9BE19F35F0300274338 /* PBXTargetDependency */,
+			);
+			name = TouchesTests;
+			productName = TouchesTests;
+			productReference = 12F0E9BC19F35F0300274338 /* TouchesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12F0E99F19F35F0300274338 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = FIAP;
+				TargetAttributes = {
+					12F0E9A619F35F0300274338 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					12F0E9BB19F35F0300274338 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 12F0E9A619F35F0300274338;
+					};
+				};
+			};
+			buildConfigurationList = 12F0E9A219F35F0300274338 /* Build configuration list for PBXProject "Touches" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12F0E99E19F35F0300274338;
+			productRefGroup = 12F0E9A819F35F0300274338 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12F0E9A619F35F0300274338 /* Touches */,
+				12F0E9BB19F35F0300274338 /* TouchesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12F0E9A519F35F0300274338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F0E9B219F35F0300274338 /* Main.storyboard in Resources */,
+				12F0E9B719F35F0300274338 /* LaunchScreen.xib in Resources */,
+				12F0E9B419F35F0300274338 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12F0E9BA19F35F0300274338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12F0E9A319F35F0300274338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F0E9AF19F35F0300274338 /* ViewController.swift in Sources */,
+				12F0E9AD19F35F0300274338 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12F0E9B819F35F0300274338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F0E9C319F35F0300274338 /* TouchesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12F0E9BE19F35F0300274338 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12F0E9A619F35F0300274338 /* Touches */;
+			targetProxy = 12F0E9BD19F35F0300274338 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12F0E9B019F35F0300274338 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12F0E9B119F35F0300274338 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12F0E9B519F35F0300274338 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12F0E9B619F35F0300274338 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12F0E9C419F35F0300274338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12F0E9C519F35F0300274338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12F0E9C719F35F0300274338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Touches/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.fiap.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12F0E9C819F35F0300274338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Touches/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.fiap.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		12F0E9CA19F35F0300274338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TouchesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.fiap.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Touches.app/Touches";
+			};
+			name = Debug;
+		};
+		12F0E9CB19F35F0300274338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TouchesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.fiap.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Touches.app/Touches";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12F0E9A219F35F0300274338 /* Build configuration list for PBXProject "Touches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12F0E9C419F35F0300274338 /* Debug */,
+				12F0E9C519F35F0300274338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12F0E9C619F35F0300274338 /* Build configuration list for PBXNativeTarget "Touches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12F0E9C719F35F0300274338 /* Debug */,
+				12F0E9C819F35F0300274338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12F0E9C919F35F0300274338 /* Build configuration list for PBXNativeTarget "TouchesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12F0E9CA19F35F0300274338 /* Debug */,
+				12F0E9CB19F35F0300274338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12F0E99F19F35F0300274338 /* Project object */;
+}
